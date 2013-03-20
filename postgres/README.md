@@ -49,6 +49,10 @@ Wait for your graphs to show up.
 
 ### Common problems: 
 
+If you get this message in your cacti.log, it may indicate you need to install the postgres module for php. (This is usually a package called "php5-pgsql"):
+
+    WARNING: Result from CMD not valid. Partial Result: The PostgreSQL exten
+
 If the script is connecting for the first time as the cacti user to a given host, it will prompt as a new host. Therefore you should connect manually or other method of getting the key into the known_hosts file on the target hosts.
 
 Ensure the key is set up for the correct users: 
